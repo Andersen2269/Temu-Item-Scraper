@@ -18,12 +18,13 @@ from random import randrange
 
 import sys
 
-wcapi = API(
-    url="https://your.site.org/wp/",
-    consumer_key="your consumer key",
-    consumer_secret="your consumer secret",
-    version="wc/v3"
-)
+# wcapi = API(
+#     url="https://your.site.org/wp/",
+#     consumer_key="your consumer key",
+#     consumer_secret="your consumer secret",
+#     version="wc/v3"
+# )
+
 categories = {
     "chargers" : "474",
     "game+accessories" : "475",
